@@ -1,5 +1,14 @@
-body {
-  background-color: aqua;
-  color: black;
-  text-align: center;
+.container {
+  width: 1200px;
+  margin: 32px auto;
+}
+.image-container {
+  display: flex;
+  justify-items: center;
+}
+.image {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  border: 3px solid #000;
 }
